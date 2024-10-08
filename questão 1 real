@@ -1,0 +1,9 @@
+n1 = int(input('Digite um número: '))
+n2 = 0
+
+while n2 <= 10:
+
+   product = n1 * n2
+
+   print(f'{n1} x {n2} = {product}')
+   n2 += 1
